@@ -32,8 +32,8 @@ function Home() {
 
       <div className="container-fluid third-section text-center">
         <h1 className="text-center p-3">Learn More About Aiva</h1>
-        <div className="row d-flex justify-content-center align-items-center mt-4">
-          <div className="col-lg-4 col-md-4 col-sm-12">
+        <div className="row d-flex justify-content-center align-items-center mt-4 p-3">
+          <div className="col-lg-4 col-md-4 col-sm-12 mb-4">
             <HomeCards
               img={SectionImg1}
               CardHeading="Card 1"
@@ -41,7 +41,7 @@ function Home() {
             />
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 mb-4">
             <HomeCards
               img={SectionImg1}
               CardHeading="Card 2"
@@ -49,7 +49,7 @@ function Home() {
             />
           </div>
 
-          <div className="col-lg-4 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 mb-4">
             <HomeCards
               img={SectionImg1}
               CardHeading="Card 3"

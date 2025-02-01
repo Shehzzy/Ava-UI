@@ -7,7 +7,7 @@ function Hero() {
             <h1>Aiva- Your Personal Voice Assistant</h1>
             <h5>Turning words into actions.</h5>
 
-            <button className='btn-hero'>Learn More</button>
+            <button className='btn-hero'>Get Started</button>
         </div>
     </>
   )

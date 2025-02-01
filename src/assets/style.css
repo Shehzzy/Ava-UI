@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
+
+#root {
+  background-color: #ebd3f8;
+}
+
 .ubuntu-light {
   font-family: "Ubuntu", serif;
   font-weight: 300;
@@ -66,6 +71,7 @@ h6 {
   font-weight: 700 !important;
   font-style: normal;
 }
+
 nav {
   height: 80px;
   width: 100%;
@@ -145,6 +151,7 @@ nav ul li {
     transform: scale(1);
     opacity: 1;
   }
+
   100% {
     transform: scale(2);
     opacity: 0;
@@ -229,4 +236,40 @@ nav ul li {
 .footer a {
   text-decoration: none !important;
   color: #ebd3f8;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .fourth-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .fourth-section .box1 {
+    height: 200px;
+    background-color: #2e073f;
+    padding-top: 10px;
+  }
+
+  .fourth-section .box2 {
+    height: 200px;
+    background-color: #7a1cac;
+    padding-top: 10px;
+  }
+
+  .fourth-section .box3 {
+    height: 200px;
+    background-color: #1b1a55;
+    padding-top: 10px;
+  }
+
+  .fifth-section {
+    height: 500px;
+    width: 100%;
+    background-image: url("./section-img-1.jpg");
+    color: #ebd3f8;
+    margin-top: 70px;
+  }
+
 }
